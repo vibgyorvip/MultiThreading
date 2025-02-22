@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54881878-1c2d-4699-93d5-9428b46ebd92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/ThreadEx9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +37,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadEx9">
-    <configuration name="ThreadEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx5" />
+  <component name="RunManager" selected="Application.ThreadEx10">
+    <configuration name="ThreadEx10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx10" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadEx10" />
         <item itemvalue="Application.ThreadEx9" />
         <item itemvalue="Application.ThreadEx8" />
         <item itemvalue="Application.ThreadEx7" />
         <item itemvalue="Application.ThreadEx6" />
-        <item itemvalue="Application.ThreadEx5" />
       </list>
     </recent_temporary>
   </component>
