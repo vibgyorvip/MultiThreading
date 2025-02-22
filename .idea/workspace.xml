@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54881878-1c2d-4699-93d5-9428b46ebd92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/ThreadEx12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/ThreadEx13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/ThreadEx11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ThreadEx11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadEx12">
+  <component name="RunManager" selected="Application.ThreadEx13">
     <configuration name="ThreadEx10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.ThreadEx10" />
       <module name="MultiThreading" />
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadEx8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx8" />
+    <configuration name="ThreadEx13 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx13" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadEx9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx9" />
+    <configuration name="ThreadEx13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ThreadEx13" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadEx13" />
+        <item itemvalue="Application.ThreadEx13 (1)" />
         <item itemvalue="Application.ThreadEx12" />
         <item itemvalue="Application.ThreadEx11" />
         <item itemvalue="Application.ThreadEx10" />
-        <item itemvalue="Application.ThreadEx9" />
-        <item itemvalue="Application.ThreadEx8" />
       </list>
     </recent_temporary>
   </component>
