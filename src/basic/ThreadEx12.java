@@ -1,9 +1,9 @@
 package basic;
 
-//Synchronization - Object -level lock
+//Synchronization - Class -level lock
 
-class Display{
-    public synchronized void  wish(String name){
+class Disp{
+    public static synchronized void  wish(String name){
         for(int i=0; i<10; i++){
             System.out.print("Good Morning : ");
 
@@ -18,10 +18,10 @@ class Display{
     }
 }
 
-class MyThread9 extends Thread{
-    Display d;
+class MyThread10 extends Thread{
+    Disp d;
     String name;
-    MyThread9(Display d, String name){
+    MyThread10(Disp d, String name){
         this.d=d;
         this.name=name;
     }
@@ -31,13 +31,14 @@ class MyThread9 extends Thread{
         d.wish(name);
     }
 }
-public class ThreadEx11 {
+public class ThreadEx12 {
 
     public static void main(String[] args) {
-        Display d = new Display();
+        Disp d1 = new Disp();
+        Disp d2 = new Disp();
 
-        MyThread9 t1 = new MyThread9(d,"Dhoni");
-        MyThread9 t2 = new MyThread9(d,"Yuvraj");
+        MyThread10 t1 = new MyThread10(d1,"Dhoni");
+        MyThread10 t2 = new MyThread10(d2,"Yuvraj");
         t1.start();
         t2.start();
     }
