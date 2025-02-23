@@ -19,11 +19,11 @@ public class ThreadEx16 {
     public static void main(String[] args) throws InterruptedException {
         MyThread15 t = new MyThread15();
         t.start();
-
+        //Thread.sleep(10000);
         synchronized (t){
             System.out.println("Main Thread trying to call wait() method"); //line-1
-            t.wait();
-            System.out.println("Main Thread got notification");
+            t.wait(); //t.wait(10000);
+            System.out.println("Main Thread got notification"); // line-4
             System.out.println(t.total);
         }
 
