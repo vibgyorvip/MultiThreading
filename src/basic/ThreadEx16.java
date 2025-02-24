@@ -25,6 +25,7 @@ public class ThreadEx16 {
             t.wait(); //t.wait(10000);
             System.out.println("Main Thread got notification"); // line-4
             System.out.println(t.total);
+
         }
 
     }
