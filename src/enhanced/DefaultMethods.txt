@@ -1,0 +1,13 @@
+String getName() -- returns name of the ThreadGroup.
+int getMaxPriority() -- returns max priority of the ThreadGroup.
+void setMaxPriority(int p) -- to set max priority of the ThreadGroup. (default max priority = 10)
+Threads in the ThreadGroup that already have higher priority won't be affected but for newly added thread this max priority is applicable.
+
+ThreadGroup.getParent() -- returns Parent group of current thread.
+void list() -- prints info. about thread group to the console.
+
+int activeCount() -- returns number of active thread present in Thread Group.
+int activeGroupCount() -- returns number of active groups present in the current thread group.
+
+int enumerate(Thread[] t) --
+
