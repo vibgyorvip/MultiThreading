@@ -9,5 +9,16 @@ void list() -- prints info. about thread group to the console.
 int activeCount() -- returns number of active thread present in Thread Group.
 int activeGroupCount() -- returns number of active groups present in the current thread group.
 
-int enumerate(Thread[] t) --
+int enumerate(Thread[] t) -- To copy all active threads of this thread group into provided thread array.
+In this case SubThread group threads also will be considered.
 
+
+int enumerate(ThreadGroup[] g) -- To copy all active subthread groups of this thread group into thread group array.
+
+boolean isDaemon() -- to check whether he thread group is daemon or not.
+
+void setDaemon(boolean b) -- change the Daemon nature of Thread Group.
+
+void interrupt() -- to interrupt all waiting or sleeping threads present in the thread group.
+
+void destroy() -- to destroy thread group & it's sub thread groups.
