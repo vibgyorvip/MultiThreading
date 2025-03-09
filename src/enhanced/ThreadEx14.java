@@ -1,7 +1,12 @@
 package enhanced;
 class ParentThread extends Thread{
 
-    public static ThreadLocal tl = new ThreadLocal<>();
+    public static InheritableThreadLocal tl = new InheritableThreadLocal(){
+        @Override
+        protected Object childValue(Object p) {
+            return "CC";
+        }
+    };
 
     @Override
     public void run() {
